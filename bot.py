@@ -18,7 +18,7 @@ import json
 from selenium import webdriver
 import time
 import datetime
-
+import os
 
 from selenium.webdriver.support import color
 
@@ -202,7 +202,7 @@ async def on_message(message):
 
 
 
-
-client.run("NzM4OTk4MDIzMTg2ODA4OTMz.XyUDig.oKrfNtgY3V5D4gbZu3MWMDj_Y3k")
+eccess_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
 
 
